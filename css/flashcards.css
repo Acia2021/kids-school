@@ -1,0 +1,122 @@
+* body{
+			background-color:white;
+			width: 100%;
+			margin: auto;
+
+		}
+		
+		.clearfix {clear: both}
+	
+			/* start   header */
+	
+		header{
+			width:100%; 
+			margin: auto;
+			height: 400px;
+			background-color: white;
+			margin-bottom: 2px;
+				background: linear-gradient( -90deg,  #FAF47D 10%, #00CEE0);
+		}
+		header img{
+			margin:auto;
+			width:60%; 
+			height: 400px;
+
+
+		}
+		header h2{
+			float: right;
+			font-size: 50px;
+			margin-right: 100px;
+			margin-top: 150px;
+			color: #2061A8;
+
+        /*end header*/
+        /* start nav */
+
+		}
+		 nav {
+		 	width:90%;
+		 margin: auto;
+		 	margin-top: 10px
+
+		 	height: 100px;
+		 text-decoration: none;	
+	overflow: hidden;
+		 }
+		  ul li{
+		 	width: 20%;
+		 	float: left;
+		 	list-style-type: none;
+		 	padding-top: 5px;
+            height: 30px;
+		 	padding-bottom: 10px;
+		 	
+		 	margin-left: 30px;
+		 	background-color: #00CEE0;
+		 	color: white;
+		 	font-size: 30px;
+		 	border-radius: 10px;
+		 	text-align: center;
+
+		 }
+		  a {
+		 	text-decoration: none;
+		 	color: white;
+
+		 }
+		 a:hover{
+		 	color:#FAF47D ;
+		 }
+		 /*end nav*/
+		  /*start  article*/
+
+		 article {
+
+		 	width:80%;
+		 	margin: auto;
+		 	margin-top: 50px;
+		 	padding-bottom: 90px;
+		 	background-color: #F8F9FD;
+		 	height: 400px;
+		  
+		 }
+		section{
+		 		width: 30%;
+		float: left;
+		 		
+		background-color: white;
+		 margin-left: 25px;
+		 margin-top: 30px;
+		 border-radius: 20px;
+		
+		
+		}
+		section img{
+			width: 300px;
+			height: 250px;
+			margin-top: 0;
+			border: 2px solid green;
+			border-radius: 60px;
+			background-color: #92E8DB;
+		}
+		section h2{
+			font-size: 30px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		section a {
+			text-decoration: none;
+			color: #54595F;
+		}
+		 /*end article*/
+        .footer .container{
+        	
+        	margin-left: 0;
+        	text-align: center;
+        	padding: 20px 0;
+        	background-color: #00CDC4;
+        	color: black;
+        	height: 30px;
+        	font-size: 20px;
+        }

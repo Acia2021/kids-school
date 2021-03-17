@@ -1,0 +1,103 @@
+* body{
+			background-color:#F8F9FD;
+			height: 3000px;
+
+		}
+		
+		.clearfix {clear: both}
+	
+		/* start   header */
+	
+		header{
+			width:100%; 
+			margin: auto;
+			height: 400px;
+			background-color: white;
+			margin-bottom: 2px;
+				background: linear-gradient( -90deg,  #FAF47D 10%, #00CEE0);
+		}
+		header img{
+			margin:auto;
+			width:60%; 
+			height: 400px;
+
+
+		}
+		header h2{
+			float: right;
+			font-size: 50px;
+			margin-right: 100px;
+			margin-top: 150px;
+			color: #2061A8;
+
+        /*end header*/
+        /* start nav */
+
+		}
+		 nav {
+		 	width:90%;
+		 margin: auto;
+		 	margin-top: 10px
+
+		 	height: 100px;
+		 text-decoration: none;	
+	overflow: hidden;
+		 }
+		  ul li{
+		 	width: 20%;
+		 	float: left;
+		 	list-style-type: none;
+		 	padding-top: 5px;
+            height: 30px;
+		 	padding-bottom: 10px;
+		 	
+		 	margin-left: 30px;
+		 	background-color: #00CEE0;
+		 	color: white;
+		 	font-size: 30px;
+		 	border-radius: 10px;
+		 	text-align: center;
+
+		 }
+		  a {
+		 	text-decoration: none;
+		 	color: white;
+
+		 }
+		 /*end nav*/
+		 /*start game */
+		 .game{
+	width: 1000px;
+	margin: auto;
+}
+.guess{
+	width: 30%;
+	display: inline;
+	float: right;
+}
+.guess p{
+	text-align: center;
+	font-size: 20px;
+	color: #00CEE0;
+}
+.guess img{
+	border: 1px solid blue;
+}
+details ul  {
+	width: 400px;
+	font-size: 20px;
+	color: blue;
+	background-color: green;
+}
+
+details ul li {
+	font-size: 20px;
+	color: white;
+	background-color: green;
+}
+
+ /*end game */
+ i{
+ 	color:  red;
+
+ }
